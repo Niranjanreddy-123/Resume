@@ -1,0 +1,198 @@
+body {
+    background-color: #f0f4f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1400px;
+    max-width: 1400px;
+    padding: 20px;
+}
+
+nav.navigation {
+    background-color: #2c3e50;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+#photo,
+#about {
+    display: inline-block;
+    vertical-align: top;
+    width: 698px;
+    height: 245px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    text-align: center;
+    background-color: #5e5257;
+}
+
+
+#photo img {
+    width: 170px;
+    height: 170px;
+    margin: 0;
+}
+
+#photo h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+
+
+.education-skills {
+    width: 1400px;
+    text-align: center;
+}
+
+#education,
+#skills {
+    width: 698px;
+    text-align: center;
+    display: inline-block;
+    background-color: #5e5257;
+    color: #171515;
+    vertical-align: top;
+    height: 300px;
+    margin-bottom: 1px;
+    padding: 0;
+}
+
+
+.education-item img,
+.experience-item img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.project-experience {
+    width: 1400px;
+    text-align: center;
+}
+
+#projects,
+#experience {
+    width: 698px;
+    text-align: center;
+    display: inline-block;
+    background-color: #5e5257;
+    color: #171515;
+    vertical-align: top;
+    height: 300px;
+    margin-bottom: 1px;
+    padding: 0px;
+}
+
+.project {
+    max-width: 120px;
+    display: inline-block;
+    background-color: #797c7d;
+
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 30px;
+    height: 50px;
+    margin: 0;
+}
+
+#container2 {
+    width: 1400px;
+    text-align: center;
+}
+
+#certifications,
+#contact {
+    width: 698px;
+    display: inline-block;
+    background-color: #5e5257;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: top;
+    height: 300px;
+    border-radius: 0;
+}
+
+.certification-item {
+
+    color: #060707;
+    margin: 0;
+    border-radius: 0;
+}
+
+
+
+.certification-item img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#contact ul li img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin: 30px;
+}
+
+#contact h2,
+#certifications h2,
+#contact h3 {
+    margin: 20px;
+    color: #050505;
+}
+
+#contact h3 {
+    color: #050505;
+}
+
+#about:target,
+#education:target,
+#skills:target,
+#projects:target #experience:target,
+#certifications:target,
+#contact:target {
+    background-color: #9f9f9f;
+}
